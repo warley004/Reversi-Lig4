@@ -55,35 +55,35 @@ Siga as instruções no terminal para iniciar uma nova partida de Reversi ou Lig
 
 ## Funcionalidades:
 
-   - Modo Multiplayer: Permite que dois jogadores humanos joguem entre si.
+- Modo Multiplayer: Permite que dois jogadores humanos joguem entre si.
 
-   - Modo Contra IA: Jogue contra um agente de inteligência artificial básico.
+- Modo Contra IA: Jogue contra um agente de inteligência artificial básico.
 
-   - Escolha de Dimensões (Lig4): Personalize o tamanho do tabuleiro de acordo com suas preferências.
+- Escolha de Dimensões (Lig4): Personalize o tamanho do tabuleiro de acordo com suas preferências.
 
-   - Validação de Jogadas: Garantia de jogadas válidas para ambos os jogos.
+- Validação de Jogadas: Garantia de jogadas válidas para ambos os jogos.
 
 ## Contribuições:
 
-   Contribuições são bem vindas! Para contribuir:
+Contribuições são bem vindas! Para contribuir:
 
-   1. Faça um fork do projeto.
+1. Faça um fork do projeto.
 
-   2. Crie uma nova branch com sua feature (git checkout -b feature/nova-feature).
+2. Crie uma nova branch com sua feature (git checkout -b feature/nova-feature).
 
-   3. Commit suas mudanças (git commit -m 'Adiciona nova feature').
+3. Commit suas mudanças (git commit -m 'Adiciona nova feature').
 
-   4. Envie para a branch principal (git push origin feature/nova-feature).
+4. Envie para a branch principal (git push origin feature/nova-feature).
 
-   5. Abra um Pull Request.
+5. Abra um Pull Request.
 
 ## Testes:
 
-   Para rodar os testes:
+Para rodar os testes:
 
-   1. Certifique-se de que todos os arquivos de teste estão na pasta `tests`.
+1. Certifique-se de que todos os arquivos de teste estão na pasta `tests`.
 
-   2. Execute o comando de testes:
+2. Execute o comando de testes:
    ```bash:
    make test
 
