@@ -1,39 +1,98 @@
-# Projeto Final - Programação e Desenvolvimento de Software 2
+# Projeto - Reversi e Lig4
 
-## Visão Geral
+Este projeto é parte do trabalho final do curso de Programação e Desenvolvimento de Software 2, onde aplica-se conceitos avançados de programação orientada a objetos, boas práticas de desenvolvimento e programação defensiva. O sistema foi desenvolvido para permitir a execução de dois jogos clássicos: Reversi e Lig4, com funcionalidades adicionais para personalização e modos de jogo contra um agente inteligente (IA).
 
-Este projeto final do curso de Programação e Desenvolvimento de Software 2 foi desenvolvido com o objetivo de aplicar conceitos fundamentais de orientação a objetos, boas práticas de programação e programação defensiva. O sistema implementado abrange a criação e gerenciamento de jogos clássicos, como Reversi e Lig4, incluindo funcionalidades como jogadas automáticas controladas por inteligência artificial (IA) e a possibilidade de configurar o tabuleiro de acordo com as preferências do usuário.
+## Índice
 
-## Desenvolvimento do Projeto
+- [Descrição](#descrição)
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Funcionalidades](#funcionalidades)
+- [Contribuição](#contribuição)
+- [Testes](#testes)
+- [Licença](#licença)
+- [Autores](#autores)
+- [Contato](#contato)
 
-Durante o desenvolvimento, enfrentamos desafios significativos relacionados ao planejamento e à implementação das funcionalidades dos jogos. Decidir como as classes seriam estruturadas e quais métodos seriam necessários para garantir a flexibilidade e a extensibilidade do código foi um dos maiores obstáculos.
+## Descrição
 
-Além disso, integramos o Doxygen ao projeto para gerar uma documentação mais profissional, o que nos ajudou a entender e a manter o código mais organizado. A realização de testes foi crucial para assegurar que o sistema funcionasse corretamente em diversos cenários, contribuindo para a robustez e a confiabilidade do software.
+O sistema desenvolvido permite a execução dos jogos Reversi e Lig4, com opções para jogar contra outro jogador ou contra uma inteligência artificial simples. Incluímos personalizações como a escolha de dimensões do tabuleiro e implementamos um agente de IA que realiza jogadas válidas sem lógica complexa.
 
-Outro aspecto implementado foi a criação de uma interface amigável e intuitiva para o usuário, de forma a garantir uma boa experiência ao utilizador final.
+### Reversi
 
-## Funcionalidades do Sistema
+- Tabuleiro fixo de 8x8.
+- Alternância de turnos entre jogador e IA.
+- Regras clássicas do Reversi.
 
-### Jogos Implementados
+### Lig4
 
-- **Reversi**: Um clássico jogo de tabuleiro onde o objetivo é capturar o maior número de peças do oponente.
-- **Lig4**: Um jogo estratégico em que dois jogadores alternam turnos para tentar alinhar quatro peças consecutivas.
+- Permite escolha de dimensões do tabuleiro.
+- O objetivo é conectar quatro peças consecutivas horizontalmente, verticalmente ou diagonalmente.
 
-### IA e Jogabilidade
+## Instalação
 
-Nos jogos desenvolvidos, foi implementada uma inteligência artificial simples que permite que um jogador humano enfrente a máquina. A IA realiza jogadas válidas de maneira automatizada, alternando corretamente os turnos com o jogador.
+Para rodar o projeto, siga as instruções abaixo:
 
-### Extensões Adicionais
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/warley004/Reversi-Lig4
 
-- **Configuração de Tabuleiro**: No jogo Lig4, o usuário pode escolher as dimensões do tabuleiro antes de iniciar uma partida, oferecendo maior personalização e desafio.
-- **Agente Inteligente (IA)**: Uma IA foi desenvolvida para substituir um dos jogadores em ambos os jogos, proporcionando uma experiência competitiva mesmo quando o jogador não tem um oponente humano disponível.
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd Reversilig4
 
-## Documentação e Testes
+3. Compile o código usando o Makefile fornecido:   
+   ```bash
+   make
 
-A documentação do projeto foi gerada utilizando o Doxygen, que fornece uma visão clara das classes, métodos e interações no sistema. Além disso, foi criado um conjunto abrangente de testes para validar todas as funcionalidades do sistema, garantindo a integridade e a correção do código em diferentes cenários.
+## Uso:
 
-## Conclusão
+1. Para iniciar o sistema, execute o arquivo compilado:
+   ```bash
+   ./bin/jogo
 
-Este projeto representou uma oportunidade valiosa para aplicar os conhecimentos adquiridos ao longo do curso em um contexto prático. Através da implementação dos jogos e da integração das funcionalidades adicionais, adquirimos uma compreensão mais profunda das técnicas de desenvolvimento de software, desde a concepção até a entrega final.
+   Siga as instruções no terminal para iniciar uma nova partida de Reversi ou Lig4, escolhendo o modo de jogo e as configurações desejadas.
 
-O sucesso do projeto é evidenciado não apenas pela funcionalidade do sistema, mas também pelo desenvolvimento pessoal e técnico de cada membro da equipe. As dificuldades encontradas ao longo do processo serviram como importantes lições, preparando-nos para enfrentar futuros desafios na carreira de desenvolvimento de software.
+## Funcionalidades:
+
+   - Modo Multiplayer: Permite que dois jogadores humanos joguem entre si.
+
+   - Modo Contra IA: Jogue contra um agente de inteligência artificial básico.
+
+   - Escolha de Dimensões (Lig4): Personalize o tamanho do tabuleiro de acordo com suas preferências.
+
+   - Validação de Jogadas: Garantia de jogadas válidas para ambos os jogos.
+
+## Contribuições:
+
+   Contribuições são bem vindas! Para contribuir:
+
+   1. Faça um fork do projeto.
+
+   2. Crie uma nova branch com sua feature (git checkout -b feature/nova-feature).
+
+   3. Commit suas mudanças (git commit -m 'Adiciona nova feature').
+
+   4. Envie para a branch principal (git push origin feature/nova-feature).
+
+   5. Abra um Pull Request.
+
+## Testes:
+
+   Para rodar os testes:
+
+   1. Certifique-se de que todos os arquivos de teste estão na pasta `tests`.
+
+   2. Execute o comando de testes:
+   ```bash:
+   make test
+
+## Licença:
+   
+   Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+
+## Autores:
+
+   - Warley Júnio Vieira Ribeiro Batista - (Desenvolvedor Principal)
+
+
