@@ -51,7 +51,7 @@ Para rodar o projeto, siga as instruções abaixo:
    ```bash
    ./bin/jogo
 
-   Siga as instruções no terminal para iniciar uma nova partida de Reversi ou Lig4, escolhendo o modo de jogo e as configurações desejadas.
+Siga as instruções no terminal para iniciar uma nova partida de Reversi ou Lig4, escolhendo o modo de jogo e as configurações desejadas.
 
 ## Funcionalidades:
 
@@ -89,10 +89,10 @@ Para rodar o projeto, siga as instruções abaixo:
 
 ## Licença:
    
-   Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
+Este projeto é distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ## Autores:
 
-   - Warley Júnio Vieira Ribeiro Batista - (Desenvolvedor Principal)
+- Warley Júnio Vieira Ribeiro Batista - (Desenvolvedor Principal)
 
 
